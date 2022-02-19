@@ -4,7 +4,9 @@
   "description": "goit-node.js-hw-01",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/YNK0406/goit-node.js-hw-01/issues"
   },
-  "homepage": "https://github.com/YNK0406/goit-node.js-hw-01#readme"
+  "homepage": "https://github.com/YNK0406/goit-node.js-hw-01#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "commander": "^9.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.3.1"
+  }
 }
